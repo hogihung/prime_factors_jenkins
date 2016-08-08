@@ -7,11 +7,11 @@ RSpec.describe PrimeFactors do
     expect(prime.calculate).to eq []
   end
 
-#  it 'should return 2 for the input of 2' do
-#    prime = PrimeFactors.new(2)
-#    expect(prime.calculate).to eq [2]
-#  end
-#
+  it 'should return 2 for the input of 2' do
+    prime = PrimeFactors.new(2)
+    expect(prime.calculate).to eq [2]
+  end
+
 #  it 'should return 3 for the input of 3' do
 #    prime = PrimeFactors.new(3)
 #    expect(prime.calculate).to eq [3]
